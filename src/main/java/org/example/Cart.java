@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class Cart {
     public Cart() {
-        listOfProducts = new ArrayList<>(); // Initialize the list in the constructor
+        listOfProducts = new ArrayList<>();
     }
 
     List<Product> listOfProducts;

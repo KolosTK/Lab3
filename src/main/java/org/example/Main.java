@@ -13,5 +13,14 @@ public class Main {
 
         Cart firstCart = new Cart();
         firstCart.AddProductToCart(first);
+        firstCart.AddProductToCart(second);
+        firstCart.AddProductToCart(third);
+
+        firstCart.RemoveProductFromCart(first);
+
+        Order firstOrder = new Order();
+        firstOrder.AddOrder(firstCart);
+        firstOrder.GetStatus();
+
     }
 }

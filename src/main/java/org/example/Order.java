@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    public void Order() {
+    public Order() {
         orderItems = new ArrayList<>();
     }
 
