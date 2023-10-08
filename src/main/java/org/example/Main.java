@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+    Product first = new Product();
+    first.AddProduct("Egg",3.2f);
+
     }
 }
