@@ -1,4 +1,5 @@
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.example.Product;
 import org.junit.jupiter.api.Test;
 

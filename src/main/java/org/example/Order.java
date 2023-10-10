@@ -18,8 +18,8 @@ public class Order {
         orderItems.addAll(cart.listOfProducts);
         cart.listOfProducts.clear();
     }
-    public void GetStatus()
-    {
+
+    public void GetStatus() {
         System.out.println(status);
     }
 }
