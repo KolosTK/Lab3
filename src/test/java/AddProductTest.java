@@ -9,7 +9,7 @@ class AddProductTest {
     Product product = new Product();
 
     @Test
-    void AddEggToProducts() {
+    void addEggToProducts() {
         name = "Egg";
         price = 3.2f;
         product.AddProduct(name, price);
@@ -17,7 +17,7 @@ class AddProductTest {
     }
 
     @Test
-    void AddMilkToProducts() {
+    void addMilkToProducts() {
         name = "Milk";
         price = 32.9f;
         product.AddProduct(name, price);
@@ -25,7 +25,7 @@ class AddProductTest {
     }
 
     @Test
-    void AddBreadToProducts() {
+    void addBreadToProducts() {
         name = "Bread";
         price = 15f;
         product.AddProduct(name, price);

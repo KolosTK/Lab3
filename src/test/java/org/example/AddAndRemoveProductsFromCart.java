@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class AddAndRemoveProductsFromCart {
+class addAndRemoveProductsFromCart {
     Product first = new Product();
     Cart firstCart = new Cart();
 

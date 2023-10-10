@@ -26,7 +26,7 @@ class AddOrderTest {
     }
 
     @Test
-    void CheckForIncludingAllElements() {
+    void checkForIncludingAllElements() {
 
         firstOrder.AddOrder(firstCart);
 
@@ -36,15 +36,13 @@ class AddOrderTest {
     }
 
     @Test
-    void IsFunctionComplete()
-    {
+    void isFunctionComplete() {
         firstOrder.AddOrder(firstCart);
-        assertEquals("Complete",firstOrder.status);
+        assertEquals("Complete", firstOrder.status);
     }
 
     @Test
-    void IsFunctionInProgress()
-    {
-        assertEquals("In progress",firstOrder.status);
+    void isFunctionInProgress() {
+        assertEquals("In progress", firstOrder.status);
     }
 }
