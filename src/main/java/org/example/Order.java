@@ -10,7 +10,7 @@ public class Order {
 
     List<Product> orderItems;
     private static int orderId = 0;
-    private String status = "In progress";
+    public String status = "In progress";
 
     public void AddOrder(Cart cart) {
         orderId++;
